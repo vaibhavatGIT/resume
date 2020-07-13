@@ -13,18 +13,14 @@ import {
 
 function App() {
   return (
-    // <Router>
-    //   <Header />
-    //   <Container>
-    //     <Main>
-    //       <Home/>
-    //     </Main>
-    //   </Container>
-    // </Router>
-    <div style={{backgroundColor:'red'}}>
-
-      <h1> VAibhav test hahahah</h1>
-    </div>
+    <Router>
+      <Header />
+      <Container>
+        <Main>
+          <Home/>
+        </Main>
+      </Container>
+    </Router>
   );
 }
 
