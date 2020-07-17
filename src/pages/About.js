@@ -16,7 +16,7 @@ function About() {
         <div className="about__box">
           <div className="about__image-container">
             <img
-              src={web}
+              src = {web}
               alt="my photo"
               className="about__photo"
             />
