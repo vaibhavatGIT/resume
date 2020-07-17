@@ -5,6 +5,7 @@ import Container from "./layouts/Container";
 import Header from "./components/Header";
 import Main from "./layouts/Main";
 import About from "./pages/About";
+import Skills from "./pages/Skills";
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +27,10 @@ function App() {
             <Route exact path="/about" exact>
               {" "}
               <About />
+            </Route>
+            <Route exact path="/skills" exact>
+              {" "}
+              <Skills />
             </Route>
           </Switch>
         </Main>

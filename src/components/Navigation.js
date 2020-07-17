@@ -22,6 +22,11 @@ function Navigation() {
           </NavLink>
         </li>
         <li className="list__item">
+          <NavLink className="list__link" to="/skills" activeClassName="active">
+            Skills
+          </NavLink>
+        </li>
+        <li className="list__item">
           <NavLink
             className="list__link"
             exact
@@ -29,11 +34,6 @@ function Navigation() {
             activeClassName="active"
           >
             Projects
-          </NavLink>
-        </li>
-        <li className="list__item">
-          <NavLink className="list__link" to="/skills" activeClassName="active">
-            Skills
           </NavLink>
         </li>
 

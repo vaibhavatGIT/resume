@@ -8,7 +8,7 @@ import web from "../assets/svgs/mac.png";
 function About() {
   return (
     <section className="section-about">
-        <Particles />
+        {/* <Particles /> */}
       <div className="about">
         <div className="heading-box">
           <h2 className="heading-secondary">about me</h2>
