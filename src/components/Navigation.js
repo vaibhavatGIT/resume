@@ -15,20 +15,20 @@ function Navigation() {
           <NavLink
             className="list__link"
             exact
-            to="/portfolios"
+            to="/about"
             activeClassName="active"
           >
-            Projects
+            About
           </NavLink>
         </li>
         <li className="list__item">
           <NavLink
             className="list__link"
             exact
-            to="/about"
+            to="/portfolios"
             activeClassName="active"
           >
-            About
+            Projects
           </NavLink>
         </li>
         <li className="list__item">

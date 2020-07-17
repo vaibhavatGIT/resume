@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Container from "./layouts/Container";
 import Header from "./components/Header";
 import Main from "./layouts/Main";
+import About from "./pages/About";
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,7 +18,16 @@ function App() {
       <Header />
       <Container>
         <Main>
-          <Home/>
+          <Switch>
+            <Route exact path="/about" exact>
+              {" "}
+              <About />
+            </Route>
+            <Route exact path="/">
+              {" "}
+              <Home />
+            </Route>
+          </Switch>
         </Main>
       </Container>
     </Router>
