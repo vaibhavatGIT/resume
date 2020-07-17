@@ -19,13 +19,13 @@ function App() {
       <Container>
         <Main>
           <Switch>
+            <Route exact path="/resume">
+              {" "}
+              <Home />
+            </Route>
             <Route exact path="/about" exact>
               {" "}
               <About />
-            </Route>
-            <Route exact path="/">
-              {" "}
-              <Home />
             </Route>
           </Switch>
         </Main>

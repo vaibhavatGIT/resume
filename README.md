@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm run build` to deploy the changes.
+### `yarn deploy` to deploy the changes.

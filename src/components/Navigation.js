@@ -7,7 +7,7 @@ function Navigation() {
     <div className="menu">
       <ul className="list">
         <li className="list__item ">
-          <NavLink className="list__link" exact to="/" activeClassName="active">
+          <NavLink className="list__link" exact to="/resume" activeClassName="active">
             Home
           </NavLink>
         </li>
